@@ -1,12 +1,4 @@
 <x-container>
-    <!-- <div class="flex">
-        <div class="w-full pb-14 justify-start">
-            <h1 class="text-xl font-extrabold tracking-wide text-gray-900 mb-2">
-                Obituary Section
-            </h1>
-            <p class="text-black text-opacity-50">Please Select Your Desired Layout Style For The Obituaries Section</p>
-        </div>
-    </div>     -->
     <section id="photos" class="my-5 grid grid-cols-2 md:grid-cols-2 gap-5">
         <div x-data="{}">
             <h6 class="font-semibold tracking-wide text-gray-800 mb-5">
