@@ -9,7 +9,7 @@
             </div>
             <div>
                 <h3 class="font-semibold tracking-wide text-gray-800">
-                    {{Auth()->user() ? Auth()->user()->name : __('Guest')}}
+                    {{Auth()->user() ? Auth()->user()->name : __('Admin')}}
                 </h3>
             </div>
         </div>
