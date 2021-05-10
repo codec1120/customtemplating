@@ -1525,7 +1525,7 @@ forEach(menu_items, function (menu) {
     setActive(a_elem.id);
   }, false); // Default nav
 
-  setActive('menu-item-obituary-section');
+  setActive('menu-item-buttons-and-links');
 }); // Functions for activating menu
 
 function setActive(menu_id) {

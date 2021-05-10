@@ -10,7 +10,7 @@ forEach( menu_items, menu => {
     }, false );
 
     // Default nav
-    setActive('menu-item-obituary-section');
+    setActive('menu-item-buttons-and-links');
 });
 
 // Functions for activating menu

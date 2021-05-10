@@ -25,66 +25,104 @@ namespace App\Helpers;
 
     public $childMenu = [
         [
-            'name' => 'obituary-section',
+            'name' => 'buttons-and-links',
             'icon' => null,
-            'label' => 'Homepage Obituary',
+            'label' => 'Buttons and Links',
             'link' => '#',
             'active' => null,
-            'slug' => 'obituary-section',
-            'parent_slug' => 'home-page-elements',
+            'slug' => 'buttons-and-links',
             'visible' => true
         ],
         [
-            'name' => 'hero-slider',
+            'name' => 'footer',
             'icon' => null,
-            'label' => 'Homepage Hero Banner',
+            'label' => 'Footer',
             'link' => '#',
             'active' => null,
-            'slug' => 'hero-slider',
-            'parent_slug' => 'header-elements',
+            'slug' => 'footer',
             'visible' => true
         ],
         [
-            'name' => 'testimonial-section',
+            'name' => 'hero-banner-home',
             'icon' => null,
-            'label' => 'Homepage Testimonial',
+            'label' => 'Hero Banner Home',
             'link' => '#',
             'active' => null,
-            'slug' => 'testimonial-section',
-            'parent_slug' => 'home-page-elements',
+            'slug' => 'hero-banner-home',
             'visible' => true
         ],
         [
-            'name' => 'staff-section',
+            'name' => 'hero-banner-inner',
             'icon' => null,
-            'label' => 'Homepage Staff',
+            'label' => 'Hero Banner Inner',
             'link' => '#',
             'active' => null,
-            'slug' => 'staff-section',
-            'parent_slug' => 'home-page-elements',
+            'slug' => 'hero-banner-inner',
             'visible' => true
         ],
         [
-            'name' => 'pre-build-headers',
+            'name' => 'hero-banner-slider',
             'icon' => null,
-            'label' => 'Pre-Build Headers',
+            'label' => 'Hero Banner Slider',
             'link' => '#',
-            'active' => NULL,
-            'slug' => 'pre-build-headers',
-            'parent_slug' => 'header-elements',
-            'visible' => false
+            'active' => null,
+            'slug' => 'hero-banner-slider',
+            'visible' => true
         ],
         [
-            'name' => 'navigation',
+            'name' => 'obituries-home',
             'icon' => null,
-            'label' => 'Navigation',
+            'label' => 'Obituaries Home',
             'link' => '#',
-            'active' => NULL,
-            'slug' => 'navigation',
-            'parent_slug' => 'header-elements',
-            'visible' => false
+            'active' => null,
+            'slug' => 'obituries-home',
+            'visible' => true
         ],
-        
+        [
+            'name' => 'obituries-inner',
+            'icon' => null,
+            'label' => 'Obituaries Inner',
+            'link' => '#',
+            'active' => null,
+            'slug' => 'obituries-inner',
+            'visible' => true
+        ],
+        [
+            'name' => 'our-location',
+            'icon' => null,
+            'label' => 'Our Location',
+            'link' => '#',
+            'active' => null,
+            'slug' => 'our-location',
+            'visible' => true
+        ],
+        [
+            'name' => 'subscribe-box',
+            'icon' => null,
+            'label' => 'Subscribe Box',
+            'link' => '#',
+            'active' => null,
+            'slug' => 'subscribe-box',
+            'visible' => true
+        ],
+        [
+            'name' => 'testimonials',
+            'icon' => null,
+            'label' => 'Testimonials',
+            'link' => '#',
+            'active' => null,
+            'slug' => 'testimonials',
+            'visible' => true
+        ],
+        [
+            'name' => 'tile-boxes',
+            'icon' => null,
+            'label' => 'Tile Boxes',
+            'link' => '#',
+            'active' => null,
+            'slug' => 'tile-boxes',
+            'visible' => true
+        ],
         [
             'name' => 'top-bar',
             'icon' => null,
@@ -92,29 +130,17 @@ namespace App\Helpers;
             'link' => '#',
             'active' => null,
             'slug' => 'top-bar',
-            'parent_slug' => 'header-elements',
-            'visible' => false
+            'visible' => true
         ],
         [
-            'name' => 'about-section',
+            'name' => 'typography',
             'icon' => null,
-            'label' => 'About Section',
+            'label' => 'Typography',
             'link' => '#',
             'active' => null,
-            'slug' => 'about-section',
-            'parent_slug' => 'home-page-elements',
-            'visible' => false
+            'slug' => 'typography',
+            'visible' => true
         ],
         
-        [
-            'name' => 'service-overview-section',
-            'icon' => null,
-            'label' => 'Service Overview Section',
-            'link' => '#',
-            'active' => null,
-            'slug' => 'service-overview-section',
-            'parent_slug' => 'home-page-elements',
-            'visible' => false
-        ]
     ];
  }
