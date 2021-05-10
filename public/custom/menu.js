@@ -1523,7 +1523,9 @@ forEach(menu_items, function (menu) {
   var a_elem = menu.querySelectorAll('a')[0];
   a_elem.addEventListener('click', function () {
     setActive(a_elem.id);
-  }, false);
+  }, false); // Default nav
+
+  setActive('menu-item-obituary-section');
 }); // Functions for activating menu
 
 function setActive(menu_id) {
@@ -1544,8 +1546,11 @@ function setActive(menu_id) {
 
   var content_id = menu_id.split('menu-item-')[1];
   console.log(content_id);
-  document.getElementById(content_id).classList.remove('hidden');
-  document.getElementById(content_id).classList.add('visible');
+
+  if (content_id) {
+    document.getElementById(content_id).classList.remove('hidden');
+    document.getElementById(content_id).classList.add('visible');
+  }
 }
 
 /***/ }),

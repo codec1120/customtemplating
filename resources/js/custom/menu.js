@@ -8,6 +8,9 @@ forEach( menu_items, menu => {
     a_elem.addEventListener('click', function () {
         setActive(a_elem.id);
     }, false );
+
+    // Default nav
+    setActive('menu-item-obituary-section');
 });
 
 // Functions for activating menu
@@ -32,7 +35,8 @@ function setActive ( menu_id )
    
     // Display Selected Menu
     const content_id = menu_id.split('menu-item-')[1];console.log(content_id)
-    document.getElementById(content_id).classList.remove('hidden');
-    document.getElementById(content_id).classList.add('visible');
-    
+    if (content_id) {
+        document.getElementById(content_id).classList.remove('hidden');
+        document.getElementById(content_id).classList.add('visible');
+    } 
 }
