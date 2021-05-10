@@ -1,0 +1,12 @@
+/* ./resources/css/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    color: rgba(17, 24, 39, var(--tw-text-opacity));
+    font-weight: 600;
+    --tw-translate-y: -0.25rem;
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
+}
