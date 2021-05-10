@@ -1557,7 +1557,7 @@ function setActive(menu_id) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/senguio/DevWork/custom-templating/custom-templating/resources/js/custom/menu.js */"./resources/js/custom/menu.js");
+module.exports = __webpack_require__(/*! /Users/senguio/DevWork/custom-templating/customtemplating/resources/js/custom/menu.js */"./resources/js/custom/menu.js");
 
 
 /***/ })

@@ -20845,9 +20845,9 @@ function setActive(menu_id) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/senguio/DevWork/custom-templating/custom-templating/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /Users/senguio/DevWork/custom-templating/custom-templating/resources/sass/app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! /Users/senguio/DevWork/custom-templating/custom-templating/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! /Users/senguio/DevWork/custom-templating/customtemplating/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /Users/senguio/DevWork/custom-templating/customtemplating/resources/sass/app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! /Users/senguio/DevWork/custom-templating/customtemplating/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })
