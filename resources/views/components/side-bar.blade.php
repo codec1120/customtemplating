@@ -3,7 +3,7 @@
 <div class="min-h-screen bg-white">
     <nav class="h-screen flex flex-col w-96">
         @if (false)
-            <ul class="p-14 space-y-2 flex-1 overflow-auto" style="scrollbar-width: thin;">
+            <ul class="p-24 space-y-2 flex-1 overflow-auto" style="scrollbar-width: thin;">
             @foreach (
                 $Navigation->parentMenu as $parentMenuItem
             )
@@ -37,7 +37,7 @@
             @endforeach
             </ul>
         @else
-        <ul class="p-24 space-y-4 flex-1 overflow-auto" id="parent-menu-ul">
+        <ul class="p-14 space-y-4 flex-1 overflow-auto" id="parent-menu-ul">
             @foreach (
                 $Navigation->childMenu as $menuItem
             )   

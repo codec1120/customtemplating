@@ -30,30 +30,11 @@
    
     <!-- login -->
     <div class="flex-initial">
-      <div class="flex justify-end items-center relative">
-       
-
+      <div class="flex justify-end items-center relative text-current">
         <div class="block">
             <div class="inline relative">
-                <button type="button" class="inline-flex items-center relative px-2 border rounded-full hover:shadow-lg text-white">
-                    <div class="pl-1">
-                        <svg
-                            viewBox="0 0 32 32"
-                            xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true"
-                            role="presentation"
-                            focusable="false"
-                            style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;"
-                        >
-                            <g fill="none" fill-rule="nonzero">
-                                <path d="m2 16h28"></path>
-                                <path d="m2 24h28"></path>
-                                <path d="m2 8h28"></path>
-                            </g>
-                        </svg>
-                    </div>
-
-                    <div class="block flex-grow-0 flex-shrink-0 h-10 w-12 pl-5">
+                <button type="button" class="inline-flex items-center relative px-2 border rounded-full hover:shadow-lg">
+                    <div class="block flex-grow-0 flex-shrink-0 h-10 w-12 text-white">
                         <svg
                             viewBox="0 0 32 32"
                             xmlns="http://www.w3.org/2000/svg"

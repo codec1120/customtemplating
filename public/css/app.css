@@ -31842,8 +31842,8 @@ video {
   --tw-scale-y: .95;
 }
 
-nav.nav-bar-class {
-  background: rgba(0, 45, 69, 0.75);
+nav.nav-bar-class, form.login-form-class {
+  background:rgb(0 50 74);
 }
 
 @media (min-width: 640px) {

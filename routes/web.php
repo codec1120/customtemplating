@@ -1,6 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Auth\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,12 +12,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
     return view('include/base');
 });
 
-
-
-Route::prefix('admin')->middleware(['auth'])->group(function () {
-    Route::get('/', [AdsHistory::class, 'getReservedHistory'])->name('adhistory.getReservedHistory');
-});
+Route::namespace('Auth')->group(function () {
+    Route::get('/dashboard',[LoginController::class, 'show_login_form'])->name('login');
+    Route::get('/login',[LoginController::class, 'show_login_form'])->name('login');
+    Route::post('/login',[LoginController::class, 'process_login'])->name('login');
+    Route::get('/register',[LoginController::class, 'show_signup_form'])->name('register');
+    Route::post('/register',[LoginController::class, 'process_signup']);
+    Route::post('/logout',[LoginController::class, 'logout'])->name('logout');
+  });
