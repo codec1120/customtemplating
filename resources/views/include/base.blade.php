@@ -8,6 +8,7 @@
         <title>{{ env('APP_TITLE') }}</title>
     </head>
     <body class="antialiased">
+        <x-nav-bar/>
         <div class="block md:flex bg-gray-50">
             <div>
                 <x-side-bar/>

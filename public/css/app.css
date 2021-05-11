@@ -31842,6 +31842,10 @@ video {
   --tw-scale-y: .95;
 }
 
+nav.nav-bar-class {
+  background: rgba(0, 45, 69, 0.75);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

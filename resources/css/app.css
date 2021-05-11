@@ -10,3 +10,7 @@
     --tw-scale-x: .95;
     --tw-scale-y: .95;
 }
+
+nav.nav-bar-class {
+    background: rgba(0, 45, 69, 0.75);
+}
